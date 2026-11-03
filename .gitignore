@@ -1,0 +1,28 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build outputs
+.next
+dist
+out
+
+# Turbo
+.turbo
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Prisma
+apps/web/prisma/migrations
+
+# Misc
+.DS_Store
+*.log
+coverage
+.nyc_output
+
+# Docker
+*.pid
