@@ -15,8 +15,8 @@ out
 .env.local
 .env.*.local
 
-# Prisma
-apps/web/prisma/migrations
+# Prisma — migrations ARE committed (needed for prisma migrate deploy)
+# apps/web/prisma/migrations
 
 # Misc
 .DS_Store
